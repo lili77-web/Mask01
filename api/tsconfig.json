@@ -6,7 +6,7 @@
     "esModuleInterop": true,
     "strict": false,
     "skipLibCheck": true,
-    "outDir": "../dist",
+    "outDir": "./dist",
     "rootDir": ".",
     "declaration": false,
     "sourceMap": false,

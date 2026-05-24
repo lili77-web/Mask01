@@ -9,3 +9,5 @@ envVars:
     value: production
   - key: PORT
     value: "3001"
+  - key: JWT_SECRET
+    value: mask01-jwt-secret-2024
