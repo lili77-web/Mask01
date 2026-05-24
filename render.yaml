@@ -1,0 +1,12 @@
+{
+  "name": "mask01-api",
+  "runtime": "node",
+  "region": "singapore",
+  "buildCommand": "npm install && npm run build:server",
+  "startCommand": "node api/dist/server.js",
+  "healthCheckPath": "/api/health",
+  "envVars": {
+    "NODE_ENV": "production",
+    "PORT": "3001"
+  }
+}
